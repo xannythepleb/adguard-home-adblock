@@ -1,0 +1,137 @@
+### XannyThePleb's ad block list
+## For my personal use on AdGuard Home, sharing in case others find it helpful
+## "Non-opinionated" blocklist - meaning no blocking of adult content, gambling, etc - only blocking ads and trackers
+
+# General ad and track domains
+
+||adnxs.com^
+||app.adjust.*^
+||app.link^
+||appboy.*^
+||app-measurement.com^
+||apsalar.com^
+||appsflyersdk.com^
+||branch.io^
+||braze.eu^
+||bugsnag.com^
+||chartbeat.com^
+||connatix.com^
+||datadoghq.com^
+||debug.opendns.com^
+||*-datadoghq.com^
+||emb-api.com^
+||liveperson.net^
+||logging.je-apps.com^
+||newrelic.com^
+||pixiedust.buzzfeed.com^
+||posthog.com^
+||ravelin.click^
+||rubiconproject.com^
+||rudderlabs.com^
+||segment.*^
+||scorecardresearch.com^
+||siftscience.com^
+||srmdata-*.com^
+||statsig.com^
+||typekit.net^
+||trackonomics.net^
+||usbla.net^
+
+# Facebook
+
+||ads.facebook.*^
+||analytics.facebook.*^
+||applinks.org^
+||connect.facebook.*^
+||dns.facebook.com^
+||graph.facebook.*^$important
+||graph.accountkit.com^
+||*-graph.facebook.com^$important
+||graph-fallback.facebook.com^
+||fbpigeon.com^
+||fbsbx.com^
+||pixel.facebook.*^
+||pixel.messenger.*^
+
+# Google
+
+||androidtvchannels-pa.googleapis.com^
+||crashlytics.com^
+||crashlyticsreports-pa.googleapis.com^
+||doubleclick.net^
+||firebaselogging.googleapis.com^
+||google-analytics.com^
+||googletagmanager.com^
+||userlocation.googleapis.com^
+
+# DuckDuckGo
+
+||improving.duckduckgo.com^
+
+# GitHub
+
+||collector.github.com^
+
+# Shazam
+
+||beacon.shazam.com^
+
+# Snapchat
+
+||app-analytics-*.snapchat.com^
+
+# Amazon
+
+||amazon-adsystem.com^
+||arcus-*.amazon.com^
+||device-metrics-us*.amazon.com^
+||msh.amazon.*^
+||unagi.amazon.com^
+
+# Netflix
+
+||beacon.netflix.com^
+||beaconimages.netflix.net^
+||customerevents.netflix.com^
+||estats.netflix.com^
+||geo.netflix.com^
+||ichnaea.netflix.com^
+||ichnaea.geo.netflix.com^
+||logs.netflix.com^
+
+# WhatsApp
+
+||crashlogs.whatsapp.net^
+||privatestats.whatsapp.net^
+
+# Instagram
+
+||graph.instagram.com^
+||graph-fallback.instagram.com^
+||logger.instagram.com^
+
+# Microsoft
+
+||activity.windows.com^
+||adcenter.microsoft.com^
+||ads.microsoft.com^
+||advertising.microsoft.com^
+||adserver.bing.com^
+||ads.msn.com^
+||feedback.windows.com^
+||graph.microsoft.*^
+||graph.windows.*^
+||in.appcenter.ms^
+||location.live.net^
+||telemetry.bing.net^
+||telemetry.*.bing.net^
+||telemetry.microsoft.com^
+||telemetry.*.microsoft.com^
+||watson.microsoft.com^
+||wustat.windows.com^
+^wpad($|\.)
+||wpad.*^
+
+# Ubuntu
+
+||daisy.ubuntu.com^
