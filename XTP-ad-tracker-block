@@ -4,13 +4,16 @@
 
 # General ad and track domains
 
+||3lift.com^
 ||adnxs.com^
+||adlightning.com^
 ||app.adjust.*^
 ||app.link^
 ||appboy.*^
 ||app-measurement.com^
 ||apsalar.com^
 ||appsflyersdk.com^
+||bidswitch.net^
 ||branch.io^
 ||braze.eu^
 ||bugsnag.com^
@@ -29,13 +32,18 @@
 ||rubiconproject.com^
 ||rudderlabs.com^
 ||segment.*^
+||sentry.io^
 ||scorecardresearch.com^
+||sharethrough.com^
 ||siftscience.com^
 ||srmdata-*.com^
 ||statsig.com^
 ||typekit.net^
 ||trackonomics.net^
 ||usbla.net^
+||outbrain.com^
+||yieldmo.com^
+||quantcast.com^
 
 # Facebook
 
@@ -47,7 +55,7 @@
 ||graph.facebook.*^$important
 ||graph.accountkit.com^
 ||*-graph.facebook.com^$important
-||graph-fallback.facebook.com^
+||graph-*.facebook.com^$important
 ||fbpigeon.com^
 ||fbsbx.com^
 ||pixel.facebook.*^
